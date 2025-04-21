@@ -41,7 +41,7 @@ bot.on('callback_query', async (query) => {
                     {
                         text: "📋 Fill Your Profile",
                         web_app: {
-                            url: "https://fit-leveling-36029.web.app/fit-leveling-profile.html"
+                            url: "https://fit-leveling-36029.web.app/profile"
                         }
                     }
                 ]]

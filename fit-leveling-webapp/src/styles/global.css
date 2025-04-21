@@ -1,0 +1,25 @@
+/* รีเซตพื้นฐาน */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffd95c;
+    background-color: #000010;
+    min-height: 100vh;
+  }
+  
+  /* ป้องกัน scroll bar แนวตั้งเวลาแสดง Layout */
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* สามารถใส่ default background image ที่นี่แทน Layout ก็ได้ */
+  body {
+    background: url("../assets/game-background.png") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
